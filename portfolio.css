@@ -1,0 +1,189 @@
+body
+{
+ margin: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+.navbar
+{
+top: 0;
+right: 0;
+left: 0;
+position: fixed;
+ overflow: hidden;
+ background-color: #4070f483;
+ width: 100%;
+ height: 56px;
+ 
+}
+
+.navbar a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+  }
+
+  .navbar a:hover:not(.active) 
+  {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #000000; 
+    font-weight: 700; 
+  }
+  .navbar a.active 
+  {
+    color: #000000;
+    float : left;
+    font-weight: 700;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+/*responsive*/ 
+
+
+
+  @media screen and (max-width: 600px) {
+    .img1{display: none;
+    }
+  } 
+    
+  @media screen and (max-width: 600px) {
+   .top .text h1{
+      font-size: 20px;
+      margin-top: 15%;
+      margin-right: 10%;
+    }
+   .top .text b{
+      font-size: 15px;
+      margin-top: 25%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .moncv {
+     margin-right: 50%;
+      height: 100%;
+      width: 50%;
+      margin-top: 5%;
+    }
+   
+  }
+
+/*responsive*/
+
+.top{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+  .acc 
+  {
+  top: 6%;
+  }
+  
+  .text 
+  {
+   margin-top: 12%;
+   margin-left: 20%;
+    
+    color: rgb(0, 0, 0);  
+  }
+
+.text h1{
+  font-size: 40px;
+}
+
+.text b{
+  font-size: 35px;
+}
+
+.img1
+{
+  margin-right: 15%;
+  margin-top: 25%;
+  height: 50%;
+  width: 60%;
+  border-radius: 50px ;
+  float: right;
+  
+}
+
+  .navbar input[type=text] 
+  {
+    padding: 6px;
+    margin-top: 13px;
+    font-size: 17px;
+    margin-left: 5px;
+    border: none;
+  }
+  .navbar .search-container button:hover 
+  {
+    color: #000000;
+  }
+
+
+
+ .content p
+ {
+   margin-left: 20%;
+   font-size: 25px;
+   color: #000;
+   font-weight: 700;
+   margin-top: 5%;
+ }
+
+ .aboutme
+ {
+   font-size: 20px;
+   margin-left: 20%;
+   margin-right:20% ;
+   margin-top: 5%;
+ }
+
+
+ .moncv 
+ {
+   margin-left: 25%;
+   height: 100%;
+   width: 50%;
+   margin-top: 5%;
+ }
+ .ldm 
+ {
+   margin-left: 25%;
+   height: 100%;
+   width: 50%;
+   margin-top: 5%;
+ }
+
+ .mpro{
+     height: 100%;
+ }
+
+ .footer
+ {
+   width: 100%;
+   height: 25%;
+   background-color: #4070f483; 
+   display: flex;
+   justify-content: center;
+   margin-top: 5%;
+  
+ }
+
+ .footer p
+ {
+   font-size: 20px;
+   color: #000;
+   font-weight: 700;
+ }
+
+.contact{
+    margin-left: 40%;
+    margin-right: 40%;
+}
