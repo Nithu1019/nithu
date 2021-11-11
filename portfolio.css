@@ -3,6 +3,9 @@ body
  margin: 0;
  font-family: 'Montserrat', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar
 {
 top: 0;
@@ -10,7 +13,7 @@ right: 0;
 left: 0;
 position: fixed;
  overflow: hidden;
- background-color: #4070f483;
+ background-color: #637bc0;
  width: 100%;
  height: 56px;
  
