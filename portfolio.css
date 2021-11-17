@@ -168,6 +168,10 @@ position: fixed;
      height: 100%;
  }
 
+ .mcomp{
+  height: 100%;
+}
+
  .footer
  {
    width: 100%;
