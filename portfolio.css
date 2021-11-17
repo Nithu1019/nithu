@@ -134,8 +134,8 @@ position: fixed;
  .content p
  {
    margin-left: 20%;
-   font-size: 25px;
-   color: #000;
+   font-size: 45px;
+   color: rgb(46, 0, 253);
    font-weight: 700;
    margin-top: 5%;
  }
