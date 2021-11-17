@@ -164,10 +164,10 @@ position: fixed;
    margin-top: 5%;
  }
 
- .mpro{
-     height: 100%;
- }
-
+.mpro p {
+  margin-left: 25%;
+  margin-top: 5%;
+}
  .mcomp{
   height: 100%;
 }
