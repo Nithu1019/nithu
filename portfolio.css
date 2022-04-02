@@ -1,196 +1,144 @@
-body
-{
- margin: 0;
- font-family: 'Montserrat', sans-serif;
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
+
+h2 , h1{
+  margin: 0px ;
+}
+
 html {
   scroll-behavior: smooth;
 }
-.navbar
-{
-top: 0;
-right: 0;
-left: 0;
-position: fixed;
- overflow: hidden;
- background-color: #637bc0;
- width: 100%;
- height: 56px;
- 
+.navbar {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #637bc0;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navbar a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    float: right;
-  }
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
-  .navbar a:hover:not(.active) 
-  {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border-bottom: 3px solid #000000; 
-    font-weight: 700; 
-  }
-  .navbar a.active 
-  {
-    color: #000000;
-    float : left;
-    font-weight: 700;
-  }
+.navbar a:hover:not(.active) {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-bottom: 3px solid #000000;
+  font-weight: 700;
+}
 
-  .navbar .icon {
-    display: none;
-  }
-/*responsive*/ 
-
-
-
-  @media screen and (max-width: 600px) {
-    .img1{display: none;
-    }
-  } 
-    
-  @media screen and (max-width: 600px) {
-   .top .text h1{
-      font-size: 20px;
-      margin-top: 15%;
-      margin-right: 10%;
-    }
-   .top .text h2{
-      font-size: 15px;
-      margin-top: 25%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .moncv {
-     margin-right: 50%;
-      height: 100%;
-      width: 50%;
-      margin-top: 5%;
-    }
-   
-  }
+.navbar .icon {
+  display: none;
+}
 
 /*responsive*/
 
-.top{
+.top {
+  width: 80%;
+  margin: 0  auto;
   display: flex;
   flex-direction: center;
+  justify-content: space-around;
+  padding: 5% 2% 0% 2%;
+  gap: 2%;
+}
+
+
+.text {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
-  .acc 
-  {
-  top: 6%;
-  }
-  
-  .text 
-  {
-   margin-top: 12%;
-   margin-left: 20%;
-    
-    color: rgb(0, 0, 0);  
-  }
 
-.text h1{
-  font-size: 40px;
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.text h2{
-  font-size: 30px;
-}
-
-.img1
-{
-  margin-right: 15%;
-  margin-top: 25%;
-  height: 50%;
+.img1 {
   width: 60%;
-  border-radius: 50px ;
-  float: right;
-  
+  border-radius: 50px;
 }
 
-  .navbar input[type=text] 
-  {
-    padding: 6px;
-    margin-top: 13px;
-    font-size: 17px;
-    margin-left: 5px;
-    border: none;
-  }
-  .navbar .search-container button:hover 
-  {
-    color: #000000;
-  }
+.content{
+  width: 80%;
+  margin: 2% auto;
+
+}
+.navbar .search-container button:hover {
+  color: #000000;
+}
+
+h3{
+  margin: 0;
+  font-size: 45px;
+  color: rgb(46, 0, 253);
+  font-weight: 700;
+}
+
+iframe{
+
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 800px;
+ 
+}
 
 
 
- .content p
- {
-   margin-left: 20%;
-   font-size: 45px;
-   color: rgb(46, 0, 253);
-   font-weight: 700;
-   margin-top: 5%;
- }
-
- .aboutme
- {
-   font-size: 20px;
-   margin-left: 20%;
-   margin-right:20% ;
-   margin-top: 5%;
- }
-
-
- .moncv 
- {
-   margin-left: 25%;
-   height: 100%;
-   width: 50%;
-   margin-top: 5%;
- }
- .ldm 
- {
-   margin-left: 25%;
-   height: 100%;
-   width: 50%;
-   margin-top: 5%;
- }
-
-.mpro p {
-  margin-left: 25%;
+.footer {
+  width: 100%;
+  height: 25%;
+  background-color: #637bc0;
+  display: flex;
+  justify-content: center;
   margin-top: 5%;
 }
- .mcomp{
-  height: 100%;
+
+.footer p {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
 }
 
- .footer
- {
-   width: 100%;
-   height: 25%;
-   background-color: #637bc0; 
-   display: flex;
-   justify-content: center;
-   margin-top: 5%;
-  
- }
-
- .footer p
- {
-   font-size: 20px;
-   color: #000;
-   font-weight: 700;
- }
-
-.contact{
-    margin-left: 40%;
-    margin-right: 40%;
+.extrenelink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.extrenelink img{
+  margin: 1% 0%;
+  padding: 2%;
+  box-shadow: 0px 0px 2px #000;
+  width: 20%;
+  border-radius: 25px;
+}
+
+.extrenelink img:hover{
+  box-shadow: 0px 0px 5px #000;
+
+}
+
